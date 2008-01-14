@@ -4,7 +4,7 @@ Version:	20041103
 Release:	0.1
 License:	GPL v2
 Group:		Applications
-Source0:	http://people.netfilter.org/peejix/GeoIP/tools/%{name}-%{version}.tar.gz
+Source0:	http://people.netfilter.org/peejix/geoip/tools/%{name}-%{version}.tar.gz
 # Source0-md5:	b92bff0fc2adba02a48cfbb4b401205c
 URL:		http://people.netfilter.org/peejix/GeoIP/tools/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
