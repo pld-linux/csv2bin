@@ -1,4 +1,5 @@
 Summary:	Convert a CSV database to format suitable for GeoIP library
+Summary(pl.UTF-8):	Konwerter bazy danych CSV do formatu dla biblioteki GeoIP
 Name:		csv2bin
 Version:	20041103
 Release:	0.1
@@ -11,17 +12,24 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 csv2bin is a tool specially written for the iptables/netfilter's GeoIP
-match purpose. This file won't discuss about the iptables/netfilter's
-framework. <www.netfilter.org> for details.
-
-csv2bin's only task is to convert a comma-seperated-value database
-containing all IPv4 subnets and their associated countries to an
-understable binary format for the iptables' GeoIP shared library.
+match purpose. csv2bin's only task is to convert a
+comma-seperated-value database containing all IPv4 subnets and their
+associated countries to an understable binary format for the iptables'
+GeoIP shared library.
 
 You can create your own database (perhaps you feel sado) or simply
-gets the latest GeoIP's free database from MaxMind. This product
-includes GeoIP data created by MaxMind, available from
-<http://maxmind.com/>
+gets the latest GeoIP's free database from MaxMind.
+
+%description -l pl.UTF-8
+csv2bin to narzędzie napisane specjalnie dla modułu dopasowującego
+GeoIP dla iptables/netfiltra.  Jedynym jego zadaniem jest konwersja
+bazy danych w formacie CSV (wartości oddzielonych przecinkami)
+zawierającej wszystkie podsieci IPv4 i związane z nimi kraje do
+binarnego formatu rozumianego przez bibliotekę współdzieloną GeoIP
+iptables.
+
+Można stworzyć własną bazę danych (jeśli ktoś jest masochistą) albo
+po prostu pobrać darmową bazę danych GeoIP z MaxMind.
 
 %prep
 %setup -q -n %{name}
