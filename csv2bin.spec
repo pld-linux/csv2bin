@@ -2,7 +2,7 @@ Summary:	Convert a CSV database to format suitable for GeoIP library
 Summary(pl.UTF-8):	Konwerter bazy danych CSV do formatu dla biblioteki GeoIP
 Name:		csv2bin
 Version:	20041103
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications
 Source0:	http://people.netfilter.org/peejix/geoip/tools/%{name}-%{version}.tar.gz
